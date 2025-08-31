@@ -87,7 +87,9 @@ def index() -> rx.Component:
     return rx.vstack(
         # ... (el box del logo no cambia) ...
         rx.box(
-            # ... scripts y logo ...
+            rx.image(
+                src="/Disenador-web-para-empresas.webp",),
+            width="200px",
         ),
         
         header_card(),
