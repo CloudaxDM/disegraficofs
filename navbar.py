@@ -13,6 +13,7 @@ def navbar_dropdown() -> rx.Component:
                 rx.hstack(
                     rx.image(
                         src="/logo_disegrafico.webp",
+                        alt="Logo Disegrafico",
                         width="200px",
                         height="auto",
                         border_radius="25%",
@@ -59,6 +60,7 @@ def navbar_dropdown() -> rx.Component:
                 rx.hstack(
                     rx.image(
                         src="/logo_disegrafico.webp",
+                        alt="Logo Disegrafico",
                         width="200px",
                         height="auto",
                         border_radius="25%",
