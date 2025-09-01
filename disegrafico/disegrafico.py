@@ -16,6 +16,7 @@ def header_component():
             # Logo
             rx.image(
                 src="/logo_disegrafico.webp",
+                alt="Logo Disegrafico",
                 width="200px",
                 height="auto"
             ),
@@ -94,6 +95,7 @@ def header_component():
     # 1. El logo, sin margen a la izquierda
     rx.image(
         src="/logo_disegrafico.webp", 
+        alt="Logo Disegrafico",
         width="200px", 
         height="auto"
     ),
@@ -144,6 +146,7 @@ def header_card() -> rx.Component:
         
             rx.image(
                 src="/diseno-de-paginas-web-en-madrid-3-980x854.webp",
+                alt="Diseño de páginas web en Madrid",
                 border_radius="30px",
                 padding="10px",
                 width=["100%","70%","40%","40%"],
@@ -230,4 +233,5 @@ app = rx.App(
         appearance="light", has_background=True, radius="large", accent_color="yellow"
     )
 )
-app.add_page(index)
+app.add_page(index,title="Diseño Web y SEO para Empresas | Tu Marca",
+    description="Especialistas en diseño web a medida y posicionamiento SEO. Creamos páginas rápidas, seguras y optimizadas para Google y las nuevas búsquedas por IA.",)

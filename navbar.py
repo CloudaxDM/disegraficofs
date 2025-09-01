@@ -103,10 +103,10 @@ def modulo():
     return rx.vstack(
         rx.heading("Tecnologías que utilizamos", size="8", color="white", align="center"),
         rx.grid(
-            rx.image(src="/html5.svg", width="100px", height="auto"),
-            rx.image(src="/mysql.svg", width="100px", height="auto"),
-            rx.image(src="/javascript.svg", width="100px", height="auto"),
-            rx.image(src="/favicon.ico", width="100px", height="auto"),
+            rx.image(src="/html5.svg", width="100px", height="auto",alt="HTML5"),
+            rx.image(src="/mysql.svg", width="100px", height="auto",alt="MySQL"),
+            rx.image(src="/javascript.svg", width="100px", height="auto",alt="JavaScript"),
+            rx.image(src="/favicon.ico", width="100px", height="auto",  alt="CSS3"),
             columns={"base": "2", "md": "4", "lg": "4"},
             spacing="8",
     ),
